@@ -9,9 +9,18 @@ To write a program to implement the Decision Tree Classifier Model for Predictin
 
 ## Algorithm
 1. start
-2. 
-3. 
-4. end
+   
+2. .import the required libraries.
+
+3.Upload and read the dataset.
+
+4.Check for any null values using the isnull() function.
+
+5.From sklearn.tree import DecisionTreeClassifier and use criterion as entropy.
+
+6.Find the accuracy of the model and predict the required values by importing the required module from sklearn.
+ 
+7. end
 
 ## Program:
 ```
@@ -49,6 +58,7 @@ dt.predict([[0.5,0.8,9,260,6,0,1,2]])
 head:
 
 ![Screenshot 2024-09-23 105346](https://github.com/user-attachments/assets/f82e006d-6279-4e6a-9572-c6b388bbc208)
+
 accuracy:
 
 ![Screenshot 2024-09-23 105358](https://github.com/user-attachments/assets/fea9fea5-6521-4425-90ca-6448121ddb51)
